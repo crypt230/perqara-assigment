@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="img/icon.png" />
+
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Personal Info</title>
+</head>
+
+<body class="bg-grey-100">
+
+    <!-- Navbar Atas -->
+    <nav
+        class="bg-white h-5 w-full shadow flex flex-col md:flex-row items-center justify-center md:justify-between fixed top-0 -z-0 border-b py-10">
+
+        <!-- Atas Kiri -->
+        <div class="flex items-center px-2 w-max">
+            <a href="#" class="inline-block gap-0">
+                <span class="text-2xl text-blue-500 font-medium pl-4">G</span><span
+                    class="text-2xl text-red-500 font-medium pl-0">o</span><span
+                    class="text-2xl text-yellow-300 font-medium pl-0">o</span><span
+                    class="text-2xl text-blue-500 font-medium pl-0">g</span><span
+                    class="text-2xl text-green-600 font-medium pl-0">l</span><span
+                    class="text-2xl text-red-500 font-medium pl-0">e</span><span
+                    class="text-2xl text-gray-600 font-medium px-1">Account</span>
+            </a>
+            <div class="flex items-center justify-between px-8">
+                <div class="relative bg-gray-100  w-[800px] py-4 px-5 rounded-lg flex">
+                    <i class="uil uil-search text-xl xl:mr-2 text-gray-500"></i>
+                    <input type="text" placeholder="Search Google Account"
+                        class="outline-none bg-transparent xl:inline-block w-full text-lg px-3 text-gray-400">
+                </div>
+            </div>
+        </div>
+        <!-- Akhir Atas Kiri -->
+
+        <!-- Atas Kanan -->
+        <ul class="md:flex mx-4 items-center justify-center gap-1">
+            <li>
+                <div
+                    class="text-xl grid place-items-center rounded-full mx-1 py-1 px-2 cursor-pointer hover:bg-gray-200 relative">
+                    <a href=""><i class="uil uil-question-circle text-2xl text-gray-500"></i></a>
+                </div>
+            </li>
+            <li>
+                <div
+                    class="text-xl grid place-items-center  rounded-full mx-1 py-1 px-2 cursor-pointer hover:bg-gray-200 relative">
+                    <a href=""><i class="uil uil-apps text-2xl text-gray-500"></i></a>
+                </div>
+
+            </li>
+            <li>
+                <a href="" class="inline-flex items-center justify-center p-1 rounded-full hover:bg-gray-200 mx-1">
+                    <img src="img/profil.jpg" alt="" class="rounded-full h-8 w-8">
+                </a>
+            </li>
+        </ul>
+        <!-- Akhir Kanan Atas -->
+    </nav>
+    <!-- Akhir Nav Atas -->
+
+    <!-- Konten -->
+    <div class="flex justify-center h-screen text-gray-200">
+
+        <!-- Navbar Kiri -->
+        <div class="w-1/5 pt-16 h-full flex flex-col fixed top-0 left-0">
+            <ul class="pt-10">
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all ">
+                        <i class="uil uil-user-circle text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3 text-gray-300">Home</span>
+                    </a></li>
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all">
+                        <i class="uil uil-file-info-alt text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3">Personal Info</span>
+                    </a></li>
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all">
+                        <i class="uil uil-toggle-on text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3">Data & Privacy</span>
+                    </a></li>
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all">
+                        <i class="uil uil-lock text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3">Security</span>
+                    </a></li>
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all">
+                        <i class="uil uil-users-alt text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3">People & Sharing</span>
+                    </a></li>
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all">
+                        <i class="uil uil-credit-card text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3">Payments</span>
+                    </a></li>
+                <li class="border-b border-gray-200  mt-2 mb-2"></li>
+                <li><a href="#"
+                        class="flex items-center pl-0 pt-2 pb-2 hover:bg-gray-200 rounded-r-full transition-all">
+                        <i class="uil uil-info-circle text-3xl pl-6"></i>
+                        <span class="font-semibold text pt-1 pl-3">About</span>
+                    </a></li>
+                <div class="fixed bottom-0 p-6 text-sm text-gray-500">
+                    <a href="#" class="mr-5 ">Privacy</a>
+                    <a href="#" class="mr-5">Terms</a>
+                    <a href="#" class="mr-5">Help</a>
+                    <a href="#" class="mr-5">About</a>
+                </div>
+            </ul>
+        </div>
+        <!-- Akhir Navbar Kiri -->
+        
+        <!-- Isi -->
+        <div class="w-[800px] pt-32">
+            <div class="flex flex-col items-center justify-center ">
+                <h1 class="text-3xl font-medium text-gray-700">Personal Info</h1>
+                <span class="text-gray-600">Info about you and your preferences across Google services</span>
+            </div>
+
+            <div class="grid grid-cols-2 pt-16">
+                <div class=" bg-white dark:bg-dark-second">
+                    <h1 class="text-3xl  text-gray-700">Your profile info in Google services</h1>
+                    <p class="text-gray-600 pt-2 leading-3">Personal info and options to manage it. You can make some of
+                        this info, like your contact details, visible to others so they can reach you easily. You can
+                        also see a summary of your profiles.</p>
+                </div>
+                <div class="">
+                    <img src="img/right.png" alt="">
+                </div>
+            </div>
+            <br>
+
+            <!-- Basic Info -->
+            <div class="pt-8">
+                <div class="border rounded-lg">
+                    <div class="px-6 mt-6">
+                        <h1 class="text-2xl  text-gray-700">Basic info</h1>
+                        <p class="text-gray-500 mb-9">Some info may be visible to other people using Google services. <a
+                                href="" class="text-blue-500">Learn more</a></p>
+                        <br>
+                    </div>
+                    <div class="flex flex-col mt-1">
+
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="" style="padding-right: 8rem;">Photo</span>
+                                    <div>
+                                        <span class="text-gray-500">A photo helps personalize your account</span>
+                                    </div>
+                                </div>
+                                <img src="img/profil.jpg" alt="" class="rounded-full h-14 ">
+                            </div>
+                            <hr style="width: 97%;float:right;">
+                        </div>
+
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="" style="padding-right: 8rem;">Name</span>
+                                    <div>
+                                        <span class="text-gray-500">Giffari Fardiaz</span>
+                                    </div>
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                            <hr style="width: 97%;float:right;">
+                        </div>
+
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="" style="padding-right: 7rem;">Birthday</span>
+                                    <div>
+                                        <span class="text-gray-500">24 August, 1999</span>
+                                    </div>
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                            <hr style="width: 97%;float:right;">
+                        </div>
+
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="" style="padding-right: 7.4rem;">Gender</span>
+                                    <div>
+                                        <span class="text-gray-500">Male</span>
+                                    </div>
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <!-- Akhir Basic Info -->
+
+            <!-- Contact Info -->
+            <div class="pt-1">
+                <div class="border rounded-lg">
+                    <div class="px-6 mt-6">
+                        <h1 class="text-2xl  text-gray-700">Contact info</h1>
+                        <br>
+                    </div>
+                    <div class="flex flex-col mt-1">
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="" style="padding-right: 7rem;">Email</span>
+                                    <div>
+                                        <span class="text-gray-500">reitha230110@gmail.com</span>
+                                    </div>
+
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                            <hr style="width: 97%;float:right;">
+                        </div>
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="" style="padding-right: 6.5rem;">Phone</span>
+                                    <div>
+                                        <span class="text-gray-500">085156416203</span>
+                                    </div>
+
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Akhir Contact Info -->
+
+            <!-- Your Profile -->
+            <div class="grid grid-cols-2 gap-1">
+                <div class="border rounded-lg">
+                    <div>
+                        <div class="px-6 mt-6 mb-6">
+                            <h1 class="text-2xl      text-gray-700">Your Profiles</h1>
+                            <p class="text-gray-500 mb-9">See how your different profiles appear in Google services</p>
+                            <br>
+                            <div class="flex gap-1 mt-6 mb-6">
+                                <div class="flex flex-col items-center mr-11">
+                                    <img src="img/profil.jpg" alt="" class="rounded-full h-14">
+                                    <span>Giffari Fardiaz</span>
+                                </div>
+                                <br>
+                                <div class="flex flex-col items-center">
+                                    <img src="img/profil.jpg" alt="" class="rounded-full h-14">
+                                    <span>Giffari Fardiaz</span>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="hover:bg-gray-200 h-12 cursor-pointer">
+                            <div class="p-3">
+                                <span class="text-blue-500 font-semibold">See Profile</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border rounded-lg">
+                    <div>
+                        <div class="px-6 mt-6 mb-8">
+                            <div class="flex items-center">
+                                <div class="w">
+                                    <h1 class="text-2xl  text-gray-700">Chose What Others See</h1>
+                                    <p class="text-gray-500">Decide what personal information you make visible to other
+                                        when you use your main Google account profile across Google services</p>
+                                </div>
+                                <div>
+                                    <img src="img/search.png" alt="" class="rounded-full h-24">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <hr class="mt-2">
+                        <div class="hover:bg-gray-200 h-12">
+                            <div class="p-3">
+                                <span class="text-blue-500 font-semibold">Go to About me</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Akhir Your Profile -->
+
+            <!-- Other Info -->
+            <div class="grid grid-cols-2 pt-14">
+                <div class=" bg-white dark:bg-dark-second">
+                    <h1 class="text-3xl  text-gray-700">Other info and preferences for google services</h1>
+                    <p class="text-gray-600 pt-2 leading-3">Ways to verify it’s you and settings for the web</p>
+                </div>
+                <div class="">
+                    <img src="img/righ2.png" alt="">
+                </div>
+            </div>
+            <br>
+            <!-- Akhir Other Info -->
+
+            <!-- Password -->
+            <div class="grid grid-cols-2 gap-1">
+                <div class="border rounded-lg">
+                    <div>
+                        <div class="px-6 mt-6">
+                            <h1 class="text-2xl text-gray-700">Password</h1>
+                            <p class="text-gray-500 mb-9">A Secure password helps protect your Google Account</p>
+                            <br>
+                        </div>
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-col">
+                                    <span class="text-3xl">......</span>
+                                    <span class="text-gray-500">Last changed xxxxx</span>
+                                </div>
+                                <div>
+                                    <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border rounded-lg">
+                    <div>
+                        <div class="px-6 mt-6">
+                            <h1 class="text-2xl text-gray-700">General preferences for the web</h1>
+                            <p class="text-gray-500 mb-9">Manage settings for Google services on the web</p>
+                            <br>
+                        </div>
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="text-gray-500 text-2xl"><i class="uil uil-globe"
+                                            style="padding-right: 0.7rem;"></i></span>
+                                    <div>
+                                        <span class="text-gray-500">Language <br> English (United States)</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="width: 95%;float:right;">
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="text-gray-500 text-2xl"><i class="uil uil-keyboard"
+                                            style="padding-right: 0.7rem;"></i></span>
+                                    <div>
+                                        <span class="text-gray-500">Input Tools <br> Type more easily in your
+                                            language</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="width: 95%;float:right;">
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="text-gray-500 text-2xl"><i class="uil uil-eye"
+                                            style="padding-right: 0.7rem;"></i></span>
+                                    <div>
+                                        <span class="text-gray-500">Accessibility <br> High-contrast colors OFF</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Akhir Password -->
+
+            <!-- Something Else -->
+            <div class="pt-1 pb-2">
+                <div class="border rounded-lg">
+                    <div class="px-6 mt-6">
+                        <h1 class="text-2xl  text-gray-700">Looking for something else?</h1>
+                        <br>
+                    </div>
+                    <div class="flex flex-col mt-1">
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="text-gray-500 text-2xl"><i class="uil uil-search"
+                                            style="padding-right: 0.7rem;"></i></span>
+                                    <div>
+                                        <span class="text-gray-500 font-semibold">Search Google Account</span>
+                                    </div>
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                            <hr style="width: 97%;float:right;">
+                        </div>
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="text-gray-500 text-2xl"><i class="uil uil-question-circle"
+                                            style="padding-right: 0.7rem;"></i></span>
+                                    <div>
+                                        <span class="text-gray-500 font-semibold">See help options</span>
+                                    </div>
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                            <hr style="width: 97%;float:right;">
+                        </div>
+                        <div class="hover:bg-gray-200">
+                            <div class="flex justify-between items-center p-6">
+                                <div class="flex flex-row items-center gap-1">
+                                    <span class="text-gray-500 text-2xl"><i class="uil uil-comment-alt-exclamation"
+                                            style="padding-right: 0.7rem;"></i></span>
+                                    <div>
+                                        <span class="text-gray-500 font-semibold">Send feedback</span>
+                                    </div>
+                                </div>
+                                <span><i class="uil uil-angle-right-b text-2xl text-gray-500"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Akhir Something Else -->
+        </div>
+        <!-- Akhir Isi -->
+    </div>
+    <!-- Akhir Konten -->
+</body>
+</html>
